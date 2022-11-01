@@ -4,12 +4,14 @@
     "dev": "cross-env NODE_ENV=development vite --host",
     "build": "vite build",
     "lint": "eslint \"**/*.{vue,ts,js}\" --fix",
-    "prepare": "husky install"
+    "fix:sass": "sass-migrator division node_modules/**/*.scss",
+    "prepare": "husky install && npm run fix:sass"
   },
   "dependencies": {
     "@unocss/reset": "^0.46.2",
     "@vueuse/core": "^9.0.0",
     "core-js": "^3.24.0",
+    "element-ui": "^2.15.10",
     "vue": "^2.7.8",
     "vue-router": "^3.5.4"
   },
@@ -23,6 +25,8 @@
     "eslint": "^8.20.0",
     "husky": "^8.0.1",
     "lint-staged": "^13.0.3",
+    "sass": "^1.55.0",
+    "sass-migrator": "^1.7.1",
     "typescript": "^4.7.4",
     "unocss": "^0.46.2",
     "unplugin-auto-import": "^0.10.1",
