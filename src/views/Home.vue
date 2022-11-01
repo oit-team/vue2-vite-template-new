@@ -11,5 +11,6 @@ export default defineComponent({
 <template>
   <div>
     {{ message }}
+    <ElButton>测试</ElButton>
   </div>
 </template>

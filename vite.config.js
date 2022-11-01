@@ -7,6 +7,9 @@ import Icons from 'unplugin-icons/vite'
 import IconsResolver from 'unplugin-icons/resolver'
 import AutoImport from 'unplugin-auto-import/vite'
 import Eslint from 'vite-plugin-eslint'
+import {
+  ElementUiResolver,
+} from 'unplugin-vue-components/resolvers'
 
 const config = defineConfig({
   resolve: {
@@ -28,6 +31,9 @@ const config = defineConfig({
     // https://www.npmjs.com/package/unplugin-vue-components
     Components({
       resolvers: [
+        ElementUiResolver({
+          importStyle: 'sass',
+        }),
         IconsResolver({
           componentPrefix: '',
         }),
