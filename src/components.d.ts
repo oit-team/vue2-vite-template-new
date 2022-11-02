@@ -7,7 +7,16 @@ export {}
 
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
+    ElAside: typeof import('element-ui/lib/aside')['default']
+    ElAvatar: typeof import('element-ui/lib/avatar')['default']
     ElButton: typeof import('element-ui/lib/button')['default']
+    ElContainer: typeof import('element-ui/lib/container')['default']
+    ElHeader: typeof import('element-ui/lib/header')['default']
+    ElMain: typeof import('element-ui/lib/main')['default']
+    ElMenu: typeof import('element-ui/lib/menu')['default']
+    ElMenuItem: typeof import('element-ui/lib/menu-item')['default']
+    ElMenuItemGroup: typeof import('element-ui/lib/menu-item-group')['default']
+    ElSubmenu: typeof import('element-ui/lib/submenu')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
   }
