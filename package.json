@@ -4,7 +4,7 @@
     "dev": "cross-env NODE_ENV=development vite --host",
     "build": "vite build",
     "lint": "eslint \"**/*.{vue,ts,js}\" --fix",
-    "fix:sass": "sass-migrator division node_modules/**/*.scss",
+    "fix:sass": "sass-migrator division node_modules/element-ui/**/*.scss",
     "prepare": "husky install && npm run fix:sass"
   },
   "dependencies": {
