@@ -1,6 +1,5 @@
 <script>
 import { defineComponent } from 'vue'
-import { toggleCollapse } from '@/layout/control'
 
 export default defineComponent({
   data: () => ({

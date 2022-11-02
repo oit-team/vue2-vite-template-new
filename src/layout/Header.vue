@@ -1,7 +1,3 @@
-<script setup>
-import { collapse, toggleCollapse } from './control'
-</script>
-
 <template>
   <ElHeader class="flex items-center justify-between shadow-md z-10">
     <div>
