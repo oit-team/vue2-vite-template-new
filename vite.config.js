@@ -32,7 +32,7 @@ const config = defineConfig({
     Components({
       resolvers: [
         ElementUiResolver({
-          importStyle: 'sass',
+          importStyle: false,
         }),
         IconsResolver({
           componentPrefix: '',
