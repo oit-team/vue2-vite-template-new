@@ -6,6 +6,7 @@ import Components from 'unplugin-vue-components/vite'
 import Icons from 'unplugin-icons/vite'
 import IconsResolver from 'unplugin-icons/resolver'
 import AutoImport from 'unplugin-auto-import/vite'
+import Eslint from 'vite-plugin-eslint'
 
 const config = defineConfig({
   resolve: {
@@ -36,6 +37,7 @@ const config = defineConfig({
       ],
       dts: 'src/auto-imports.d.ts',
     }),
+    Eslint(),
   ],
 
   server: {
