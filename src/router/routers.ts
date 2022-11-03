@@ -3,7 +3,12 @@ import Layout from '@/layout/index.vue'
 
 export const routes: RouteConfig[] = [
   {
+    path: '/login',
+    component: () => import('@/views/Login.vue'),
+  },
+  {
     path: '/',
+    redirect: '/home',
     component: Layout,
     children: [
       {

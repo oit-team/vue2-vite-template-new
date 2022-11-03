@@ -7,7 +7,7 @@ import Main from './Main.vue'
 <template>
   <ElContainer class="h-full" direction="vertical">
     <Header />
-    <ElContainer>
+    <ElContainer class="overflow-hidden">
       <Aside />
       <Main />
     </ElContainer>

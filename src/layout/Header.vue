@@ -1,5 +1,5 @@
 <template>
-  <ElHeader class="flex items-center justify-between shadow-md z-10">
+  <ElHeader class="flex items-center justify-between border-b z-10">
     <div>
       <div class="flex items-center justify-center py-2">
         <ElAvatar class="mr-2" src="https://picsum.photos/40" />

@@ -11,6 +11,7 @@ declare module '@vue/runtime-core' {
     ElAvatar: typeof import('element-ui/lib/avatar')['default']
     ElButton: typeof import('element-ui/lib/button')['default']
     ElContainer: typeof import('element-ui/lib/container')['default']
+    ElFooter: typeof import('element-ui/lib/footer')['default']
     ElHeader: typeof import('element-ui/lib/header')['default']
     ElMain: typeof import('element-ui/lib/main')['default']
     ElMenu: typeof import('element-ui/lib/menu')['default']
