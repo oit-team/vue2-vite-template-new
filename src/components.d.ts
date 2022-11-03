@@ -7,19 +7,6 @@ export {}
 
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
-    ButtonPrimary: typeof import('./components/shareds/ButtonPrimary.vue')['default']
-    ButtonSecondary: typeof import('./components/shareds/ButtonSecondary.vue')['default']
-    Feature: typeof import('./components/Feature.vue')['default']
-    Features: typeof import('./components/Features.vue')['default']
-    Heading1: typeof import('./components/shareds/Heading1.vue')['default']
-    Heading2: typeof import('./components/shareds/Heading2.vue')['default']
-    Hero: typeof import('./components/Hero.vue')['default']
-    MdiAlien: typeof import('~icons/mdi/alien')['default']
-    MdiArrowRight: typeof import('~icons/mdi/arrow-right')['default']
-    MdiGithub: typeof import('~icons/mdi/github')['default']
-    MdiMoonWaningCrescent: typeof import('~icons/mdi/moon-waning-crescent')['default']
-    MdiWhiteBalanceSunny: typeof import('~icons/mdi/white-balance-sunny')['default']
-    Navbar: typeof import('./components/Navbar.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
   }
