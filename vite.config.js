@@ -21,7 +21,11 @@ const config = defineConfig({
 
   plugins: [
     vue(),
+
+    // https://www.npmjs.com/package/unocss
     Unocss(),
+
+    // https://www.npmjs.com/package/unplugin-vue-components
     Components({
       resolvers: [
         IconsResolver({
@@ -30,7 +34,11 @@ const config = defineConfig({
       ],
       dts: 'src/components.d.ts',
     }),
+
+    // https://www.npmjs.com/package/unplugin-icons
     Icons(),
+
+    // https://www.npmjs.com/package/unplugin-auto-import
     AutoImport({
       imports: [
         '@vueuse/core',
